@@ -1,6 +1,6 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 18, 19, 22 May || 09:30 - 17:30
+### 27, 28, 29 Sep || 09:30 - 17:30
 #### In-person at the Craik Marshall training room ([map](https://goo.gl/maps/TF6cmuc2EjVhLTfG6))
 
 ![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
@@ -8,12 +8,11 @@
 ## Instructors
 
 * Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Adam Reid - The Gurdon Institute, University of Cambridge
 * Ashley Sawle - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Hugo Tavares - Bioinformatics Training Facility, University of Cambridge
+* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
+* Ian Tsang - NIAB, Cambridge
 * Jon Price - Biochemistry Department, University of Cambridge
 * Katarzyna Kania - Genomics Core, Cancer Research UK Cambridge Institute
-* Roderik Kortlever - Dept. Biochemistry, University of Cambridge
 
 
 ## Outline
@@ -38,7 +37,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 > If you are not familiar with the R statistical programming language we
 > strongly encourage you to work through an introductory R course before
 > attempting these materials.
-> We recommend our [Introduction to R course](https://bioinformatics-core-shared-training.github.io/r-intro/)
+> We recommend our [Introduction to R course](https://bioinformatics-core-shared-training.github.io/r-intro/).
 
 ## Data
 
@@ -56,7 +55,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ### Day 1
 
-Trainers: Ashley Sawle, Jon Price, Abbi Edwards, Katarzyna Kania, Roderik Kortlever
+Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kania
 
 * 09:30 - 09:40 **Welcome** 
 * 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
@@ -64,13 +63,11 @@ Trainers: Ashley Sawle, Jon Price, Abbi Edwards, Katarzyna Kania, Roderik Kortle
 * 10:25 - 10:30 - **Break**
 * 10:30 - 10:40 **Preamble**: data set and workflow - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
-* 10:40 - 12:00 Library structure, **cellranger** for alignment and cell calling - Jon
+* 10:40 - 12:30 Library structure, **cellranger** for alignment and cell calling - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
-* 12.00 - 12.30 **Loupe browser demo** - Roderik Kortlever
-  + [Slides](https://drive.google.com/file/d/15aw6gXRRjs_5k4cFVI1qoLiJ8rTyxtaA/view?usp=sharing)
 * 12:30 - 13:30 **Lunch break**
-* 13:30 - 17:00 **QC and exploratory analysis** - Abbi Edwards
+* 13:30 - 17:00 **QC and exploratory analysis** - Ash
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
@@ -78,37 +75,37 @@ Trainers: Ashley Sawle, Jon Price, Abbi Edwards, Katarzyna Kania, Roderik Kortle
 
 ### Day 2
 
-Trainers: Ashley Sawle, Adam Reid, Hugo Tavares
+Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price
 
-* 09:30 - 09:40 **Recap** - 
+* 09:30 - 09:40 **Recap** - Ash
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html) 
-* 09:40 - 12:30 **Normalisation** - Adam
+* 09:40 - 12:30 **Normalisation** - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Hugo
+* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Ash
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Ash 
+* 15:35 - 17:30 **Batch correction and data set integration** - Chandra 
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\) 
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
 
 ### Day 3
 
-Trainers: Abbi Edwards, Adam Reid, Hugo Tavares
+Trainers: Abbi Edwards, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kania
 
-* 09:30 - 09:40 Recap <!-- ?? -->
-* 09:40 - 11:05 **Clustering** - Adam Reid
+* 09:30 - 09:40 Recap - Chandra
+* 09:40 - 11:05 **Clustering** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break** 
-* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi / Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Hugo Tavares
+* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Abbi
     + [Slides](https://docs.google.com/presentation/d/11kaW_sxUQ8S_cRV9I0g6H7420E9frcZz36q9cwIlXTI/edit?usp=sharing) 
     + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
     + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
