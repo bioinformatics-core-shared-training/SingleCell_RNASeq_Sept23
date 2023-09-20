@@ -1,0 +1,3 @@
+[submodule "UnivCambridge_ScRnaSeqIntro_Base"]
+	path = UnivCambridge_ScRnaSeqIntro_Base
+	url = https://github.com/bioinformatics-core-shared-training/UnivCambridge_ScRnaSeqIntro_Base.git
