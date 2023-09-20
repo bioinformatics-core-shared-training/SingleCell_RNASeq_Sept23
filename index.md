@@ -1,24 +1,20 @@
-# Introduction to single-cell RNA-seq data analysis 
-### 3-day course
-#### Taught remotely
-#### Bioinformatics Training, Craik-Marshall Building, Downing Site, University of Cambridge
+# Introduction to single-cell RNA-seq data analysis
 
-![](Images/uniOfCamCrukLogos.png)
+### 18, 19, 22 May || 09:30 - 17:30
+#### In-person at the Craik Marshall training room ([map](https://goo.gl/maps/TF6cmuc2EjVhLTfG6))
+
+![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
 
 ## Instructors
 
 * Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
+* Adam Reid - The Gurdon Institute, University of Cambridge
 * Ashley Sawle - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Hugo Tavares - Bioinformatics Training Facility, University of Cambridge
+* Jon Price - Biochemistry Department, University of Cambridge
 * Katarzyna Kania - Genomics Core, Cancer Research UK Cambridge Institute
-* Stephane Ballereau - Bioinformatics Core, Cancer Research UK Cambridge Institute
+* Roderik Kortlever - Dept. Biochemistry, University of Cambridge
 
-**Helpers:**
-
-* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Chloe Pacyna - Wellcome Sanger Institute
-* Jon Price - The Gurdon Institute, University of Cambridge
-* Karsten Bach - Department of Pharmacology, University of Cambridge
 
 ## Outline
 
@@ -33,13 +29,6 @@ marker genes, as well as differential expression and abundance analyses.
 You will also learn how to generate common plots for analysis and visualisation
 of gene expression data, such as TSNE, UMAP and violin plots.
 
-We have run this course twice and are still learning how to teach it remotely.
-Please bear with us if there are any technical hitches, and be aware that timings
-for different sections laid out in the schedule below may not be adhered to.
-There may be some necessity to make adjusments to the course as we go.
-
-(Materials linked to below will be updated closer to the time of delivery)
-
 > ## Prerequisites
 >
 > __**Some basic experience of using a UNIX/LINUX command line is assumed**__
@@ -51,96 +40,113 @@ There may be some necessity to make adjusments to the course as we go.
 > attempting these materials.
 > We recommend our [Introduction to R course](https://bioinformatics-core-shared-training.github.io/r-intro/)
 
-## Data sets
+## Data
 
-Two data sets:
-
-* '[CaronBourque2020](https://www.nature.com/articles/s41598-020-64929-x)': pediatric leukemia, with four sample types, including:
+* The course data is based on '[CaronBourque2020](https://www.nature.com/articles/s41598-020-64929-x)' 
+  relating to pediatric leukemia, with four sample types, including:
   * pediatric Bone Marrow Mononuclear Cells (PBMMCs)
   * three tumour types: ETV6-RUNX1, HHD, PRE-T  
-* ['HCA': adult BMMCs](https://data.humancellatlas.org/explore/projects/cc95ff89-2e68-4a08-a234-480eca21ce79) (ABMMCs) obtained from the Human Cell Atlas (HCA)
-  * (here downsampled from 25000 to 5000 cells per sample)
+* The data used in the course can be [downloaded from Dropbox](https://www.dropbox.com/sh/qwxgat50tsg8m3r/AAAzQd5WXuEBGOFl3m4f5B1La?dl=1) (the file is 4.2GB compressed and XXGB when uncompressed, so make sure you have enough space on your computer). Please note that:
+  * these data have been processed for teaching purposes and are therefore not suitable for research use;
+  * all the data is provided on our training machines, you don't need to download it to attend the course.
 
-## Tentative schedule
+## Schedule
 
-**Tentative schedule** for a 3-day course.
-
-(long sessions include breaks)
+**PDF of materials:** if you want a PDF version of the materials go to the "Print" option on your browser and select "Print to PDF" (all major browsers have this functionality).
 
 ### Day 1
 
-* 09:30 - 09:40 **Welcome** <!-- Paul -->
-* 09:40 - 10:25 **Introduction** - Katarzyna Kania
-    + [Slides](Slides/01_Introduction.pdf)
-* 10:25 - 10:30 5 min **break** 
-* 10:30 - 10:40 **Preamble**: data set and workflow - Stephane Ballereau
-    + [Slides](Slides/02_PreambleSlides.html)
-* 10:40 - 12:30 Library structure, **cellranger** for alignment and cell calling - Stephane Ballereau
-    + [Slides](Slides/03_CellRangerSlides.html) <!-- \([pdf](scRNAseq/Slides/CellRangerSlides.pdf)\) -->
-    + [Alignment with Cell Ranger](Markdowns/03_CellRanger.html)
-* 12:30 - 13:30 **lunch break**
-* 13:30 - 17:30 **QC and exploratory analysis** - Ashley Sawle
-    + [Slides](Slides/04_QualityControlSlides.html) \([pdf](Slides/04_QualityControlSlides.pdf)\)
-<!--
-    + [QC and preprocessing](Markdowns/04_Preprocessing_And_QC.html)     
-    + [Exercise](Markdowns/04_Preprocessing_And_QC.Exercise.html)  
--->
+Trainers: Ashley Sawle, Jon Price, Abbi Edwards, Katarzyna Kania, Roderik Kortlever
+
+* 09:30 - 09:40 **Welcome** 
+* 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
+* 10:25 - 10:30 - **Break**
+* 10:30 - 10:40 **Preamble**: data set and workflow - Jon
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
+* 10:40 - 12:00 Library structure, **cellranger** for alignment and cell calling - Jon
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
+* 12.00 - 12.30 **Loupe browser demo** - Roderik Kortlever
+  + [Slides](https://drive.google.com/file/d/15aw6gXRRjs_5k4cFVI1qoLiJ8rTyxtaA/view?usp=sharing)
+* 12:30 - 13:30 **Lunch break**
+* 13:30 - 17:00 **QC and exploratory analysis** - Abbi Edwards
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
+    + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
+
 
 ### Day 2
 
-* 09:30 - 09:40 Recap <!-- Stephane -->
-* 09:40 - 12:30 **Normalisation** - Stephane Ballereau
-    + [Slides](Slides/05_NormalisationSlides.html) <!-- \([pdf](scRNAseq/Slides/05_normalisationSlides.pdf)\) -->
-<!--
-    + [Practical](Markdowns/05_Normalisation.html)     
-    + [Exercises](Markdowns/05_Normalisation_exercises.html)
-    + [Exercise Solutions](Markdowns/05_Normalisation_exercises_solutions.html)
--->
+Trainers: Ashley Sawle, Adam Reid, Hugo Tavares
+
+* 09:30 - 09:40 **Recap** - 
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html) 
+* 09:40 - 12:30 **Normalisation** - Adam
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
+    + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Hugo Tavares
-    + [Slides](Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html)
-<!--
-    + [Materials](Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
--->
+* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Hugo
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Abigail Edwards
-    + [Slides](Slides/07_DataIntegrationAndBatchCorrectionSlides.html)  
-<!--
-    + [Data set integration](Markdowns/07_DataSetIntegration_PBMMC_ETV6-RUNX1.html)
-    + [Solutions](Markdowns/07_DataIntegrationChallengeSolution.html)
-    + [Batch Correction extended example](Markdowns/07_BatchCorrection.html)
--->
-    
+* 15:35 - 17:30 **Batch correction and data set integration** - Ash 
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\) 
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
+
 ### Day 3
 
-* 09:30 - 09:40 Recap <!-- Stephane -->
-* 09:40 - 11:05 **Clustering** - Stephane Ballereau
-    + [Slides](Slides/08_ClusteringSlides.html)
-<!--
-    + [Practical](Markdowns/08_ClusteringPostDsi.html)
-    + [Exercise1](Markdowns/08_ClusteringPostDsi_exercise.Rmd)
-    + [Exercise Solutions](Markdowns/08_ClusteringPostDsi_exercise_solutions.html)
--->
+Trainers: Abbi Edwards, Adam Reid, Hugo Tavares
+
+* 09:30 - 09:40 Recap <!-- ?? -->
+* 09:40 - 11:05 **Clustering** - Adam Reid
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break** 
-* 11:15 - 12:30 **Identification of cluster marker genes** - Hugo Tavares
-    + [Slides](Slides/09_ClusterMarkerGenes.html)
-<!--
-    + [Cluster marker genes](Markdowns/09_ClusterMarkerGenes.html)
-    + Worksheet in `Exercises/09_ClusterMarkerGenes.R`
--->
+* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
+    + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Differential expression between conditions** - Stephane Ballereau
-    + [Slides](Slides/10_MultiSplCompSlides.html)
-<!--
-    + [Practical](Markdowns/10_MultiSplComp.html)
-    + [Exercise1](Markdowns/10_MultiSplComp_exercise1.Rmd)
-    + [Exercise1 Solutions](Markdowns/10_MultiSplComp_exercise1_solutions.html)
--->
-* 15:25 - 15:35 10 min **break** 
-* 15:35 - 17:30 **Differential abundance between conditions** - Stephane Ballereau
-    + [Slides](Slides/10_MultiSplCompSlides.html)
-<!--
-    + [Practical](Markdowns/10_MultiSplComp.html)
-    + [Exercise2](Markdowns/10_MultiSplComp_exercise2.Rmd)
-    + [Exercise2 Solutions](Markdowns/10_MultiSplComp_exercise2_solutions.html)
--->
+* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Hugo Tavares
+    + [Slides](https://docs.google.com/presentation/d/11kaW_sxUQ8S_cRV9I0g6H7420E9frcZz36q9cwIlXTI/edit?usp=sharing) 
+    + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
+    + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
+
+
+## Extended Materials
+
+* **Seurat** walkthrough: 
+  * Part 1: [Data pre-processing](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part1.html)
+  * Part 2: [Cell clustering and annotation](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part2.html)
+
+
+## Software Installation
+
+You can make use of the computers in the Training Room, which are ready for use and have the necessary data & software installed.
+However, if you want to run the analysis on your own computer, you can follow these instructions. 
+
+* Download and install R: https://cloud.r-project.org/
+  * (Windows users only): Download and install RTools: https://cran.r-project.org/bin/windows/Rtools/
+* Download and install RStudio: https://www.rstudio.com/products/rstudio/download/#download
+* Open RStudio and run the following commands from the console:
+    ```r
+    install.packages("BiocManager")
+    BiocManager::install(c("AnnotationHub", "BiocParallel", "BiocSingular", "DropletUtils", "PCAtools", "batchelor", "bluster", "cluster", "clustree", "dynamicTreeCut", "edgeR", "ensembldb", "ggplot2", "igraph", "patchwork", "pheatmap", "scater", "scran", "tidyverse"))
+    ```
+
+For Cellranger, you will need to use a Linux machine. 
+See the [installation instructions from 10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation). 
+
+
+## Acknowledgments: 
+
+Much of the material in this course has been derived from the demonstrations found in 
+[OSCA book](http://bioconductor.org/books/3.14/OSCA/) 
+and the [Hemberg Group course materials](https://www.singlecellcourse.org/). Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab.](https://marionilab.github.io/miloR/articles/milo_demo.html)
+
+The materials have been contributed to by many individuals over the last 2 years, including:
+
+Abigail Edwards, Ashley D Sawle, Chandra Chilamakuri, Kamal Kishore, Stephane Ballereau, Zeynep Kalendar Atak, Hugo Tavares, Jon Price, Katarzyna Kania, Roderik Kortlever, Adam Reid, Tom Smith
+
+Apologies if we have missed anyone!
