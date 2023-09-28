@@ -18,7 +18,7 @@
 ## Outline
 
 This workshop is aimed at biologists interested in learning how to perform
-standard single-cell RNA-seq analyses. 
+standard single-cell RNA-seq analyses.
 
 This will focus on the droplet-based assay by 10X genomics and include running
 the accompanying `cellranger` pipeline to align reads to a genome reference and
@@ -31,9 +31,9 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 > ## Prerequisites
 >
 > __**Some basic experience of using a UNIX/LINUX command line is assumed**__
-> 
+>
 > __**Some R knowledge is assumed and essential. Without it, you
-> will struggle on this course.**__ 
+> will struggle on this course.**__
 > If you are not familiar with the R statistical programming language we
 > strongly encourage you to work through an introductory R course before
 > attempting these materials.
@@ -41,7 +41,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ## Data
 
-* The course data is based on '[CaronBourque2020](https://www.nature.com/articles/s41598-020-64929-x)' 
+* The course data is based on '[CaronBourque2020](https://www.nature.com/articles/s41598-020-64929-x)'
   relating to pediatric leukemia, with four sample types, including:
   * pediatric Bone Marrow Mononuclear Cells (PBMMCs)
   * three tumour types: ETV6-RUNX1, HHD, PRE-T  
@@ -57,7 +57,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kania
 
-* 09:30 - 09:40 **Welcome** 
+* 09:30 - 09:40 **Welcome**
 * 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
 * 10:25 - 10:30 - **Break**
@@ -78,7 +78,7 @@ Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kan
 Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price
 
 * 09:30 - 09:40 **Recap** - Ash
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html) 
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html)
 * 09:40 - 12:30 **Normalisation** - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
@@ -88,8 +88,8 @@ Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Chandra 
-    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\) 
+* 15:35 - 17:30 **Batch correction and data set integration** - Chandra
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
 
 ### Day 3
@@ -100,20 +100,20 @@ Trainers: Abbi Edwards, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kan
 * 09:40 - 11:05 **Clustering** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
-* 11:05 - 11:15 10 min **break** 
+* 11:05 - 11:15 10 min **break**
 * 11:15 - 12:30 **Identification of cluster marker genes** - Abbi / Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
 * 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Abbi
-    + [Slides](https://docs.google.com/presentation/d/11kaW_sxUQ8S_cRV9I0g6H7420E9frcZz36q9cwIlXTI/edit?usp=sharing) 
+    + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/10_DifferentialAnalysis.html) 
     + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
     + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
 
 
 ## Extended Materials
 
-* **Seurat** walkthrough: 
+* **Seurat** walkthrough:
   * Part 1: [Data pre-processing](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part1.html)
   * Part 2: [Cell clustering and annotation](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part2.html)
 
@@ -121,7 +121,7 @@ Trainers: Abbi Edwards, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kan
 ## Software Installation
 
 You can make use of the computers in the Training Room, which are ready for use and have the necessary data & software installed.
-However, if you want to run the analysis on your own computer, you can follow these instructions. 
+However, if you want to run the analysis on your own computer, you can follow these instructions.
 
 * Download and install R: https://cloud.r-project.org/
   * (Windows users only): Download and install RTools: https://cran.r-project.org/bin/windows/Rtools/
@@ -132,14 +132,14 @@ However, if you want to run the analysis on your own computer, you can follow th
     BiocManager::install(c("AnnotationHub", "BiocParallel", "BiocSingular", "DropletUtils", "PCAtools", "batchelor", "bluster", "cluster", "clustree", "dynamicTreeCut", "edgeR", "ensembldb", "ggplot2", "igraph", "patchwork", "pheatmap", "scater", "scran", "tidyverse"))
     ```
 
-For Cellranger, you will need to use a Linux machine. 
-See the [installation instructions from 10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation). 
+For Cellranger, you will need to use a Linux machine.
+See the [installation instructions from 10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation).
 
 
-## Acknowledgments: 
+## Acknowledgments:
 
-Much of the material in this course has been derived from the demonstrations found in 
-[OSCA book](http://bioconductor.org/books/3.14/OSCA/) 
+Much of the material in this course has been derived from the demonstrations found in
+[OSCA book](http://bioconductor.org/books/3.14/OSCA/)
 and the [Hemberg Group course materials](https://www.singlecellcourse.org/). Additional material concerning `miloR` has been based on the [demonstration from the Marioni Lab.](https://marionilab.github.io/miloR/articles/milo_demo.html)
 
 The materials have been contributed to by many individuals over the last 2 years, including:
