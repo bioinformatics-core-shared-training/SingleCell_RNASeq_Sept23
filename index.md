@@ -11,6 +11,7 @@
 * Ashley Sawle - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Ian Tsang - NIAB, Cambridge
+* Jiawei Wang - EMBL-EBI, Cambridge
 * Jon Price - Biochemistry Department, University of Cambridge
 * Katarzyna Kania - Genomics Core, Cancer Research UK Cambridge Institute
 
@@ -55,7 +56,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ### Day 1
 
-Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kania
+Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jiawei Wang, Jon Price, Katarzyna Kania
 
 * 09:30 - 09:40 **Welcome**
 * 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
@@ -75,7 +76,7 @@ Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kan
 
 ### Day 2
 
-Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price
+Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jiawei Wang, Jon Price
 
 * 09:30 - 09:40 **Recap** - Ash
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html)
@@ -94,14 +95,14 @@ Trainers: Ashley Sawle, Chandra Chilamakuri, Ian Tsang, Jon Price
 
 ### Day 3
 
-Trainers: Abbi Edwards, Chandra Chilamakuri, Ian Tsang, Jon Price, Katarzyna Kania
+Trainers: Abbi Edwards, Chandra Chilamakuri, Ian Tsang, Jiawei Wang, Jon Price, Katarzyna Kania
 
 * 09:30 - 09:40 Recap - Chandra
 * 09:40 - 11:05 **Clustering** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
-* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi / Jon
+* 11:15 - 12:30 **Identification of cluster marker genes** - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
